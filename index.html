@@ -25,8 +25,10 @@
     <script type="module" src="js/custom.js"></script>
     <script type="module" src="./insights/speed-insights.js"></script>
     <script type="module">
-        import { inject } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics/dist/analytics.mjs';
+        import { inject } from "./@vercel/analytics";
         inject();
+
+        console.log("Vercel Analytics configurato correttamente.");
     </script>
     
 </body>
