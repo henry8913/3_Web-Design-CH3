@@ -1,0 +1,71 @@
+/* Spaziatura del contenuto principale */
+main {
+    margin-top: 80px;
+}
+
+/* Visibilità Navbar */
+.navbar-large {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .navbar-small {
+        display: none;
+    }
+    .navbar-large {
+        display: block;
+    }
+
+    main {
+        margin-top: 40px;
+    }
+}
+
+/* Colori Navbar */
+.navbar-dark,
+.navbar-dark .navbar-toggler,
+.offcanvas-end.text-bg-dark,
+.bg-dark {
+    background-color: #ff5722 !important;
+    border-color: #000;
+}
+
+.navbar-large {
+    background-color: #ff5722 !important;
+    border-bottom: 1px solid #000;
+}
+
+/* Dropdown e Offcanvas */
+.dropdown-menu {
+    background-color: #ff5722 !important;
+    border: none;
+}
+
+.offcanvas-end.text-bg-dark {
+    background-color: #ff5722 !important;
+}
+
+/* Link e Hover */
+.nav-link,
+.dropdown-item {
+    color: white !important;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+    color: #ffcc00 !important;
+}
+
+/* Bottone Cerca */
+.btn-success {
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+
+.btn-success:hover {
+    background-color: #ffcc00 !important;
+    border-color: #ffcc00 !important;
+}
+
+
+
