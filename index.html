@@ -24,12 +24,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="js/custom.js"></script>
     <script type="module" src="./insights/speed-insights.js"></script>
-    <script type="module">
-        import { inject } from "./@vercel/analytics";
-        inject();
-
-        console.log("Vercel Analytics configurato correttamente.");
-    </script>
+    
+    <!-- Vercel Analytics -->
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+      </script>
+      <script defer src="/_vercel/insights/script.js"></script>    
     
 </body>
 </html>
