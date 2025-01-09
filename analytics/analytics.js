@@ -1,3 +1,3 @@
-import { inject } from '@vercel/analytics';
+import { inject } from '../node_modules/@vercel/analytics';
 
 inject();
