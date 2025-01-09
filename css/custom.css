@@ -67,5 +67,8 @@ main {
     border-color: #ffcc00 !important;
 }
 
+.bg-dark-footer {
+    background-color: rgb(80, 78, 77) !important;
+}
 
 
